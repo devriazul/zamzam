@@ -27,6 +27,10 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    scroll-margin-top: 110px; /* Offset to prevent sticky navigation bar from covering headers when scrolling/navigating */
+}
+
 body {
     font-family: var(--font-main);
     color: var(--text-color);
@@ -136,7 +140,9 @@ img {
 
 /* Sections Badge & Headers */
 .section-badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 6px 16px;
     background-color: var(--primary-light);
     color: var(--primary-color);
@@ -145,6 +151,7 @@ img {
     border-radius: 50px;
     margin-bottom: 16px;
     border: 1px solid rgba(12, 105, 67, 0.15);
+    line-height: 1;
 }
 
 .section-title {
