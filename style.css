@@ -1405,6 +1405,25 @@ img {
     
     .lightbox-prev { left: 10px; }
     .lightbox-next { right: 10px; }
+    
+    .experience-card {
+        bottom: 10px;
+        right: 10px;
+        padding: 10px 18px;
+        border-width: 2px;
+    }
+    
+    .exp-num {
+        font-size: 22px;
+    }
+    
+    .exp-txt {
+        font-size: 11px;
+    }
+    
+    .booking-form-wrapper {
+        padding: 24px 20px;
+    }
 }
 
 /* Floating WhatsApp Button */
